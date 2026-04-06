@@ -2073,11 +2073,45 @@ input, select, textarea {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 2em 0;
+				padding: 0.75em 0;
 			}
 
 			body.homepage #header-wrapper {
 				height: auto;
+			}
+
+			#header .inner {
+				height: 6em;
+			}
+
+			#header h1 img#logo-img {
+				height: 5.5em;
+			}
+
+			#nav {
+				line-height: 6em;
+				font-size: 0.85em;
+			}
+
+			#nav > ul > li {
+				padding: 0 0.4em;
+			}
+
+			#nav > ul > li > a, #nav > ul > li > span {
+				padding: 0.4em 0.5em;
+				font-size: 0.85em;
+			}
+
+			#banner {
+				padding: 3em 0;
+			}
+
+			#banner a.button {
+				font-size: 0.9em;
+				padding: 0.75em 1.5em;
+				white-space: normal;
+				max-width: 90%;
+				display: inline-block;
 			}
 
 			#footer-wrapper {
@@ -2173,7 +2207,7 @@ input, select, textarea {
 					text-transform: uppercase;
 					font-weight: 800;
 					letter-spacing: 0.04em;
-					color: #fff;
+					color: #1a3a5c;
 					line-height: 44px;
 					text-align: center;
 				}
