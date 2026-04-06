@@ -1678,10 +1678,10 @@ input, select, textarea {
 		height: auto;
 }
 
-	.box.excerpt  iframe :
-		width: 350px;   
-                height: auto;           
-}                     
+	.box.excerpt iframe {
+		width: 350px;
+		height: auto;
+	}
 
 		.box.excerpt header {
 			margin: 0 0 1em 0;
