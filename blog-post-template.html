@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	BLOG POST TEMPLATE — Medium Style
+	Copy this entire file and rename to: blog-post-YOUR-TITLE.html
+	Update the content sections marked with [EDIT]
+-->
+<html>
+	<head>
+		<link rel="icon" href="images/mike.ico">
+		<title>[EDIT: Your Post Title] - Central Maryland Lax</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Medium-style blog post aesthetics */
+			body {
+				background-color: #fafafa;
+			}
+
+			#main-wrapper {
+				background-color: #ffffff;
+			}
+
+			.blog-container {
+				max-width: 680px;
+				margin: 0 auto;
+				padding: 60px 32px;
+				line-height: 1.8;
+				font-size: 18px;
+				color: #333;
+			}
+
+			.blog-header {
+				margin-bottom: 50px;
+				text-align: left;
+			}
+
+			.blog-date {
+				font-size: 14px;
+				color: #888;
+				font-weight: 500;
+				letter-spacing: 0.5px;
+				margin-bottom: 12px;
+				text-transform: uppercase;
+			}
+
+			.blog-title {
+				font-size: 42px;
+				font-weight: 700;
+				line-height: 1.2;
+				color: #222;
+				margin: 0;
+				margin-bottom: 16px;
+			}
+
+			.blog-subtitle {
+				font-size: 20px;
+				font-weight: 400;
+				color: #666;
+				margin: 0;
+				line-height: 1.5;
+			}
+
+			.blog-featured-image {
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+				margin: 50px 0 40px 0;
+				border-radius: 8px;
+				display: block;
+			}
+
+			.blog-content h3 {
+				font-size: 28px;
+				font-weight: 700;
+				color: #222;
+				margin: 50px 0 24px 0;
+				line-height: 1.2;
+			}
+
+			.blog-content h3:first-child {
+				margin-top: 0;
+			}
+
+			.blog-content p {
+				margin: 0 0 28px 0;
+				font-size: 18px;
+				line-height: 1.8;
+				color: #333;
+			}
+
+			.blog-content ul {
+				margin: 28px 0;
+				padding-left: 24px;
+				font-size: 18px;
+				line-height: 1.8;
+			}
+
+			.blog-content li {
+				margin: 12px 0;
+				color: #333;
+			}
+
+			.blog-author-box {
+				background-color: #f5f5f5;
+				border-left: 4px solid #000;
+				padding: 24px 28px;
+				margin: 60px 0 40px 0;
+				border-radius: 4px;
+			}
+
+			.blog-author-box p {
+				margin: 0 0 8px 0;
+				font-size: 16px;
+				line-height: 1.6;
+			}
+
+			.blog-author-box strong {
+				font-weight: 600;
+				color: #222;
+				font-size: 18px;
+			}
+
+			.blog-author-box .role {
+				color: #666;
+				font-size: 15px;
+			}
+
+			.blog-cta-box {
+				background-color: #f0f7ff;
+				border-left: 4px solid #0071e3;
+				padding: 28px 28px;
+				margin: 50px 0;
+				border-radius: 4px;
+				text-align: center;
+			}
+
+			.blog-cta-box p {
+				margin: 0 0 16px 0;
+				font-size: 16px;
+				color: #333;
+			}
+
+			.blog-cta-box strong {
+				font-weight: 600;
+				color: #222;
+			}
+
+			.blog-cta-box .button {
+				background-color: #0071e3;
+				color: white;
+				border: none;
+				padding: 12px 32px;
+				font-size: 16px;
+				border-radius: 4px;
+				cursor: pointer;
+				text-decoration: none;
+				display: inline-block;
+				font-weight: 500;
+				transition: background-color 0.2s;
+			}
+
+			.blog-cta-box .button:hover {
+				background-color: #0052a3;
+			}
+
+			.blog-back-link {
+				margin-top: 50px;
+				padding-top: 40px;
+				border-top: 1px solid #eee;
+				text-align: center;
+			}
+
+			.blog-back-link a {
+				color: #0071e3;
+				text-decoration: none;
+				font-weight: 500;
+				font-size: 16px;
+			}
+
+			.blog-back-link a:hover {
+				text-decoration: underline;
+			}
+
+			/* Responsive */
+			@media (max-width: 768px) {
+				.blog-container {
+					padding: 40px 20px;
+				}
+
+				.blog-title {
+					font-size: 32px;
+				}
+
+				.blog-content h3 {
+					font-size: 24px;
+				}
+
+				.blog-content p,
+				.blog-content ul {
+					font-size: 16px;
+				}
+			}
+		</style>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header Wrapper -->
+				<div id="header-wrapper">
+					<div class="container">
+
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
+
+									<!-- Logo -->
+										<h1><a href="index.html"><img src="images/maison.png" id="logo-img" alt="Central Maryland Lax" /></a></h1>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li><a href="index.html">Home</a></li>
+												<li><a href="train.html">Training</a></li>
+												<li><a href="">Instructors</a>
+												<ul>
+													<li><a href="jack.html">Jack Simon</a></li>
+													<li><a href="davis.html">Davis Whiting</a></li>
+												</li>
+												</ul>
+												<li><a href="blog.html">Blog</a></li>
+												<li><a href="contact.html">Contact</a></li>
+											</ul>
+										</nav>
+
+								</div>
+							</header>
+
+					</div>
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="blog-container">
+
+						<!-- Post Header -->
+						<div class="blog-header">
+							<div class="blog-date">[EDIT: MONTH DD, YYYY]</div>
+							<h1 class="blog-title">[EDIT: Your Post Title Here]</h1>
+							<p class="blog-subtitle">[EDIT: Optional subtitle or teaser — one sentence]</p>
+						</div>
+
+						<!-- Featured Image -->
+						<img src="images/blog/[EDIT: YOUR_IMAGE.jpg]" alt="[EDIT: Image description]" class="blog-featured-image" />
+
+						<!-- Post Content -->
+						<div class="blog-content">
+
+							<h3>[EDIT: First Section Title]</h3>
+							<p>[EDIT: Write your first paragraph here. This looks great in a centered, readable column. Keep paragraphs to 2-3 sentences for better readability.]</p>
+
+							<h3>[EDIT: Second Section Title]</h3>
+							<p>You can add as many sections as you want. The typography is optimized for reading on any device. Use H3 tags for section headers and regular paragraph tags for content.</p>
+
+							<!-- Example: Bulleted List -->
+							<ul>
+								<li>[EDIT: Key point 1]</li>
+								<li>[EDIT: Key point 2]</li>
+								<li>[EDIT: Key point 3]</li>
+							</ul>
+
+							<h3>[EDIT: Closing Section]</h3>
+							<p>[EDIT: Wrap up your post with a call-to-action or final thought. You might direct readers to contact you, sign up for training, or read another post.]</p>
+
+							<!-- Author Info -->
+							<div class="blog-author-box">
+								<p><strong>[EDIT: Your Name]</strong><br class="role" />
+								<span class="role">[EDIT: Your title/role at Central Maryland Lax]</span></p>
+								<p style="margin-top: 8px; font-size: 15px; color: #666;">[EDIT: Brief one-liner about your expertise or background]</p>
+							</div>
+
+							<!-- CTA Box -->
+							<div class="blog-cta-box">
+								<p><strong>Ready to take your game to the next level?</strong></p>
+								<p>Reach out to set up a consultation or learn more about our training programs.</p>
+								<a href="contact.html" class="button">Get in Touch</a>
+							</div>
+
+							<!-- Back to Blog Link -->
+							<div class="blog-back-link">
+								<a href="blog.html">← Back to All Posts</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			<!-- Footer Wrapper -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+								<section>
+									<h2>Pages</h2>
+									<ul class="divided">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="train.html">Training</a></li>
+										<li><a href="blog.html">Blog</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<section>
+									<h2>Staff</h2>
+									<ul class="divided">
+										<li><a href="jack.html">Jack Simon</a></li>
+										<li><a href="davis.html">Davis Whiting</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium imp-medium">
+								<section>
+									<h2>Contact Information</h2>
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<dl class="contact">
+													<dt>Email</dt>
+													<dd><a href="mailto:centralmarylandlacrosse@gmail.com">centralmarylandlacrosse@gmail.com</a></dd>
+													<dt>Location</dt>
+													<dd>Columbia, MD.</dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; Central Maryland Lax. All rights reserved</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
